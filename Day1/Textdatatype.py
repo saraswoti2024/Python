@@ -60,6 +60,10 @@
 # print(countres)
 # print(countress)
 
+#5.1. title() -> harek word ko first letter lai capital banauxa
+# a="my naMe is ritam"
+# print(a.title())
+
 # #6.find-> kun index ma xa tyo letter vanxa
 # find1 = intro.find("Asw") #yo word ko first sentence #3
 # find2 = intro.find("a") #first ma jun xa tahi #7

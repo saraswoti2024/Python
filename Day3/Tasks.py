@@ -68,7 +68,7 @@ print(person2)
 person2['Age'] = 29
 print(person2)
 
-print(person1.update(person2))
+# print(person1.update(person2))
 
 #nested dictionary
 person3 = {
@@ -97,4 +97,5 @@ person = {'name': 'Sarah',
            'age': 35, 
            'city': 'Miami', 
            'job': 'Lawyer'}
-
+person.pop('age')
+print(person)
