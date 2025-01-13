@@ -75,5 +75,28 @@ b = 3
 if a>2: print("a is greater")
 print("a is greater") if (a>b) else print("a is smaller")
 
+#round 
+print(round(21.4))
+
+#if .5 nearest even dinxa value
+print(round(11.5)) #12
+print(round(12.5)) #12
+
+
+print(round(1212,-1)) #ones,tens place samma 1 oota digits samma herxa ani nearest even integer dinxa multiply by 10 hunxa so 12->10
+
+print(round(1212,-2))#ones,tens,hundred change hunxa *100 herxa so  3 oota digits samma herxa ani nearest even integer dinxa multiply by 100 hune herxa so 212->200,300(ans:200)
+
+print(round(6.77,-1)) #same mathi ko jasto ani nearest even 10 lae multiple hune #ans:10.0
+print(round(677.2,-1)) #point paxi ko ignore jastai gardinca ani tahi duita value herxa ani 680 answer
+
+print(round(6.77,-2)) #no 2 digits so ans:0
+print(round(677.123,-2)) # 2 digits 100 lae multiply hune halxa #ans: 700 
+#so on.. for -3,-4,+3,+4 round
+
+
+
+
+
 
 

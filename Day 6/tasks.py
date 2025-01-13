@@ -121,3 +121,35 @@
 # s = {50,75,100,125}
 # if(100 in s): print("present")
 # else: print("not present")
+
+#bmi calculator
+
+# weight = float(input("enter your weight in kg: "))
+# height = float(input("Enter your height in meter: "))
+
+# bmi = weight / height**2
+# print(int(bmi))
+
+#nested if,ifelse,elif
+#exercise bmi
+
+# year = int(input("Enter year: "))
+
+# if year%4==0:
+#     if year%100==0:
+#         if year%400==0:
+#             print("Leap Year")
+#         else:
+#             print("not a leap year")
+#     else:
+#         print("leap year")
+# else:
+#     print("not a leap year")
+
+#who pay the bill task
+# import random
+# names = input("Enter names seperated by comma: ")
+# name_lists = names.split(",")
+
+# res = random.choice(name_lists)
+# print(f"{res} will pay the bill")
