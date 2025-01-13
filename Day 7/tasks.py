@@ -28,28 +28,46 @@
 
 #Write a program to find the largest number in a list [2, 8, 1, 16, 5, 23, 7] using a for loop
 
-# list = [2, 8, 1, 16, 5, 23, 7] 
-# largest = list[0]
-# smallest = list[0]
+list = [2, 8, 1,0, 16, 5, 23,222, 7] 
+largest = list[0]
+smallest = list[0]
+for i in list:
+    if i>largest:
+        largest=i
+print("largest is ",largest)
 
-# # for i in list:
-# #     if(largest<i):
-# #         largest=i
-# # print(largest)
-
-# for i in list:
-#     if(smallest>i):
-#         smallest = i
-# print(smallest)
+for i in list:
+    if i<smallest:
+        smallest=i
+print("smallest is ",smallest)
 
 #prime number
+# for num in range(2,51):
+#     for j in range(2,num):
+#         if(num%j==0):
+#             break
+#     else:
+#         print(num)
 
-for num in range(2,51):
-    for j in range(2,num):
-        if(num%j==0):
-            break
-    else:
-        print(num)
+#program to calculate average height from a list of heights
+
+# heights = (input("Enter heights using comma:\n"))
+# list1 = heights.split(",")
+# count = 0
+# total = 0
+# for length in list1:
+#     count += 1
+# print(count)
+
+# for i in range(count):
+#     list1[i] = int(list1[i])
+#     print(list1)
+
+# for int_num in list1:
+#     total += int_num
+
+# avg = total/count
+# print(round(avg))
 
 
 
@@ -58,6 +76,3 @@ for num in range(2,51):
 
 
 
-
-
-       

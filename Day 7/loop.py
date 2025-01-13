@@ -42,5 +42,41 @@
 
 #multiply 
 
-for i in range(1,11):    
-    print(f"2 x {i} = {2*i}")
+# for i in range(1,11):    
+#     print(f"2 x {i} = {2*i}")
+
+#list in loop
+# numbers = [2,3,4,5]
+# num2 = []
+# for i in numbers:
+#     num = i**2
+#     num2.append(num)
+# print(f"list: {num2}")
+
+#tuples in loop -> its immutable so need to convert list to tuple
+# numbers = (2,3,4,5)
+# num2 = ()
+# num3 = []
+# print(type(num2))
+# for i in numbers:
+#     num = i**2
+#     num3.append(num)
+#     num2 =  tuple(num3) 
+# print(f"list: {num2}")
+
+#sets in loop
+# numbers = {2,3,4,5}
+# num2 = set()
+# for i in numbers:
+#     num = i**2
+#     num2.add(num)
+# print(f"sets: {num2}")
+
+#dict in loop
+# numbers = { 'name': 'sara', 'age':22, 'address':'shantinagar' }
+# num2 = {}
+# for key in numbers:
+#     # print(numbers[key])
+#     num2[key] =  numbers[key] #dynamic pL ho python so num2[key] tesari lekhne bitikai automatic add hunxa num2 ma key value bujxa python lae
+# print(num2)
+
