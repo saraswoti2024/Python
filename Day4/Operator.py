@@ -59,30 +59,34 @@
 # print("my" in a)
 # print("my" not in a)
 
-#6. identity operator -> memory address hererw equal xa ki xaina vanxa
+#6. identity operator -> memory address hererw equal xa ki xaina vanxa (int=5 xa ani a,b,c sabai value lae aauta lai point garxa integer,float ko case ma)
 # a = [1,2,3]
 # b = [1,2,3]
-# print(id(a)) 
-# print(id(b))
-# print(a is b)
-# print(a==b) #value matrai herxa
+a = 5.2
+b = 5.2
+print(id(a)) 
+print(id(b))
+print(a is b)
+print(a==b) #value matrai herxa
 # print(15 is not b)
+
+
 
 #7. bit wise operator-> binary operation hunxa 12-> 1101 , 15-> 1111
 
 # and operator -> & (both true-> true, both false-> false, onefonet,onetonef-> false)
-a = 20
-b = 15
-print(a & b) #1101+1111
+# a = 20
+# b = 15
+# print(a & b) #1101+1111
 
-#or operator -> | (one true-> true, both true-> true , both false-> false)
-print(a | b)
+# #or operator -> | (one true-> true, both true-> true , both false-> false)
+# print(a | b)
 
-#negotation operator (~) -> 2's complement garxa
-print(~(a)) #20-> -21, #13-> -14
+# #negotation operator (~) -> 2's complement garxa
+# print(~(a)) #20-> -21, #13-> -14
 
-#xor
-#different-> true , same-> false
-print(a ^ b)
+# #xor
+# #different-> true , same-> false
+# print(a ^ b)
 
 
