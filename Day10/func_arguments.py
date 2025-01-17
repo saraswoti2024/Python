@@ -42,7 +42,7 @@
 #5.arbitary keyword argument: only use in key,value wala pair not like dict->key:value, normally chahi key=value
 #symbol - **-> key,value
 
-# def show(*a,**n):
+# def show(*a,**n): #*a aagadi nai define hunxa jaile **n vanda
 #     for i,j in n.items():
 #         print(i,j)
 #         print(type(i))
@@ -52,3 +52,18 @@
 
 # # show(name="sara",age=20)
 # show(1,2,3,name="sara",age=20)
+
+#arbitary argument more example 
+#no global variable accessed by it?? it throwed error
+def add(a,*num): 
+    c=0
+    for i in num:
+        print(i)
+        c += i
+    print("sum: ",c)
+    print(a)
+
+add(2,2,3) #bydefault a ko value first position ko hunxa->2
+
+
+
