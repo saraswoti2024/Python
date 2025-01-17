@@ -27,7 +27,7 @@
 
 # #dubai right hunxa
 # # show(age = 20,name="sara") 
-# show(name="sara",age = 20,address="butwal") #yesari ya argument ma define garyo vane yahi address linxa not default
+# show(name="sara",age = 20,address="butwal") #yesari ya argument ma define garyo vane yahi address linxa not default(override gareko value)
 # show(name="sara",age = 20) 
 
 #4.arbitary argument : variable length argument aauta parameter ma multiple argument pass garna milxa ani tuple ko form ma print hunxa
