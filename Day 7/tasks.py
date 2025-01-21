@@ -28,20 +28,20 @@
 
 #Write a program to find the largest number in a list [2, 8, 1, 16, 5, 23, 7] using a for loop
 
-list = [2, 8, 1,0, 16, 5, 23,222, 7] 
-largest = list[0]
-smallest = list[0]
-for i in list:
-    if i>largest:
-        largest=i
-print("largest is ",largest)
+# list = [2, 8, 1,0, 16, 5, 23,222, 7] 
+# largest = list[0]
+# smallest = list[0]
+# for i in list:
+#     if i>largest:
+#         largest=i
+# print("largest is ",largest)
 
-for i in list:
-    if i<smallest:
-        smallest=i
-print("smallest is ",smallest)
+# for i in list:
+#     if i<smallest:
+#         smallest=i
+# print("smallest is ",smallest)
 
-#prime number
+# #prime number
 # for num in range(2,51):
 #     for j in range(2,num):
 #         if(num%j==0):
