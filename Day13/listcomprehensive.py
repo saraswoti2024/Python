@@ -1,3 +1,7 @@
+# List comprehensions in Python are a concise and readable way to create lists.
+# new_list = [expression, for item in iterable,if condition]
+
+
 a = [1,2,3,4,5]
 b = []
 #longmethod
@@ -30,10 +34,11 @@ b = []
 
 
 
-b = ["youtube.com","facebook.com","whatsapp.com","ram.com"]
+# b = ["youtube.com","facebook.com","whatsapp.com","ram.com"]
 
-# for i in b:
-#     values = i.strip(".com")
+# # for i in b:
+# #     values = i.strip(".com")
 
-values = [i.removesuffix(".com") for i in b]
-print(values)
+# values = [i.removesuffix(".com") for i in b]
+# print(values)
+
