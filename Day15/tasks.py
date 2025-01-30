@@ -1,36 +1,22 @@
-#1.
+# Create a parent class Person with attributes name and age. Create a child class Student that inherits Person and adds an attribute grade. Display the details using a method.
 
-# class account:
-#     balance = 20000
-#     account_no = 1234353345
+class Person:
+     def __init__(self,name,age):
+          self.name = name
+          self.age = age
 
-#     def debit(self,amount):
-#         self.balance += amount
-#         print(self.balance)
-    
-#     def credit(self,amount):
-#         self.balance -= amount
-#         print(self.balance)
+class Student(Person):
+     
+     def __init__(self, name, age,grade):
+          super().__init__(name, age)
+          self.grade = grade
 
-# account1 = account()
-# account1.debit(1000)
-# account1.credit(200)
+     def display(self):
+          print(f"name = {self.name}, age = {self.age}, grade = {self.grade}")
 
-#2.
+student1 = Student(name="saraswoti",grade=22,age=15)
+student1.display()
 
-class circle:
-    pi = 3.14
-    def __init__(self,radius):
-        self.radius = radius
+               
 
-    def area(self):
-        print(2*self.pi*self.radius)
-    
-    def circumference(self):
-        print(self.pi*(self.radius**2))
-
-circle1 = circle(5)
-circle1.area()
-circle1.circumference()
-
-
+     
