@@ -1,3 +1,4 @@
+
 ##question chahi diamond_problem file ma xa advance wala ho
 
 l1 = Z+ merge(l(F),l(g),l(h),fgh)
@@ -20,13 +21,10 @@ l(h) = h + merge(l(d),l(a),da)
     = hda + merge(o,o)
     = hdao
 
-l(z) = Z+ merge(Fbcdo,gbeo,hdao,fgh)
-l(z) = Zf + merge(bcdo,gbeo,hdao,gh)
+#aauta aauta gardai check garxa
+first ko sabai , paxi head ani aaru tail, if head haru tail ma xa vanae lina milena natra line
+l(z) = Z+ merge(Fbcdo,gbeo,hdao,fgh)  
+    = Zf +  merge(bcdo,gbeo,hdao,gh) 
     = Zfg + merge(bcdo,beo,hdao,h)
-    = Zfgb + merge(cdo,eo,hdao,h)
-    = Zfgbe + merge(cdo,o,hdao,h)
-    = Zfgbeh + merge(cdo,dao)
-    = Zfgbehc + merge(do,dao)
-    = Zfgbehcd + merge(o,ao)
-    = zfgbehcda + merge(o,o)
-    = zfgbehcdao
+    = Zfgbh + merge(cdo,eo,dao) 
+    = Zfgbhc  
