@@ -1,0 +1,15 @@
+file handling means permanently storing variables ki code to disk so paxi fetch garna milxa
+
+#open,read,write,close
+
+file_obj = open("filename","mode")
+
+types of mode:
+1. read
+2. write
+3. append(adding something)
+4. r+ -> both read and write
+5. w+ -> both write and read
+6. a+ -> both append and write
+
+
