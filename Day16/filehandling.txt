@@ -12,4 +12,4 @@ types of mode:
 5. w+ -> both write and read
 6. a+ -> both append and write
 
-
+for binary files -> rb,wb,rb+,wb+,ab+ adding b last ma
