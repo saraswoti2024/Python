@@ -54,8 +54,20 @@
 # print(f1.read())
 
 ###if we want to open file of the desktop then give full path, in any mode it can be open
-f1 = open("E:\learn\django\python file.txt","a+")
-# f1.write("writing in desktop ko file")
-f1.seek(0)
+# f1 = open("E:\learn\django\python file.txt","a+")
+# # f1.write("writing in desktop ko file")
+# f1.seek(0)
+# print(f1.read())
+# f1.write("feri appending") ##changes aauxa extenal(desktop) ma vako file ma
+
+##opening images and coping images -> images is in binary so use b last ma jun pani mode ma
+f1 = open(r"E:\learn\Python\images\saraswoti.png","rb")
 print(f1.read())
-f1.write("feri appending") ##changes aauxa extenal(desktop) ma vako file ma
+
+#coping 
+f2 = open(r"E:\learn\Python\Day16\image.png","wb")
+for i in f1:
+    f2.write(i)
+f1.close()
+f2.close()
+
