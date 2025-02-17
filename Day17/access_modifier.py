@@ -36,12 +36,23 @@ A1 = A()
 
 #using different class to call protected vako class
 
-b1 = B()
-#     print(b1._name)
-#     b1._show()
-b1.show()
-# showdata()
+# b1 = B()
+# #     print(b1._name)
+# #     b1._show()
+# b1.show()
+# # showdata()
 
-##public method to access private
+##1.accessing private methods, attributes
+
+##public method to access private(calling private method in public method of same class and calling public method of that class from outside)
+# a1 = A()
+# a1.show2()
+
+##name mangling , aagadi objectname._classname__privatefunc()
 a1 = A()
-a1.show2()
+a1._A__show() ##private method
+print(a1._A__name1) #private attribute
+
+##getter and  setter method
+#in encapsulation file 
+##we use this method to access private datas aaru chahi concept ko lagi matra padheko jasto ho
